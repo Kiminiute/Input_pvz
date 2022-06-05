@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Lorem ipsum dolor sit</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+      cupiditate doloribus minima fugiat est.
+    </p>
+    <form action="submit">
+      <div class="question">
+        <label for="name">Name</label>
+        <input class= "width-100" id="name" type="text" placeholder="Enter your name" required />
+      </div>
+      <div class="question">
+        <label for="email">Email</label>
+        <input class= "width-100"
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div class="question" >
+        <label for="age">Age</label>
+        <input class= "width-100" id="number" id="age" placeholder="Age" />
+      </div>
+      <div class="question">
+        <select class= "width-100" for="role">
+          <option value="" disabled selected>Select your role</option>
+          <option value="developer">Developer</option>
+          <option value="designer">Designer</option>
+        </select>
+      </div>
+      <div class="question">
+          <p>Whats your favorite language?</p>
+          <div> 
+            <input name="favorite-language" type="radio" id="html" />
+            <label class="inline-label" for="html">HTML</label>
+          </div>
+          <div> 
+            <input name="favorite-language" type="radio" id="css" />
+            <label class="inline-label" for="css">CSS</label>
+          </div>
+          <div> <input name="favorite-language" type="radio" id="javascript" />
+          <label class="inline-label" for="javascript">Javascript</label>
+         </div>
+        </div>
+    </div>
+    <div class="question">
+        <p>Slect one or more</p>
+        <div>
+            <input type="checkbox" id="optional" name="multiple-slection">
+            <label class="inline label" for="optional">HTML</label>
+        </div>
+        <div>
+            <input type="checkbox" id="optional" name="multiple-slection">
+            <label class="inline label" for="optional">CSS</label>
+        </div>
+        <div>
+            <input type="checkbox" id="optional" name="multiple-slection">
+            <label class="inline label" for="optional">Javascript</label>
+        </div>
+        <p></p>
+        <div class="question">
+            <label for="comment">Enter your comment:</label>
+            <textarea class="width-100" rows="10" id="comment" ></textarea>
+        </div>
+        <input class="width-100" type="submit"/>
+        <button class="width-100" type="submit">Submit form button</button>
+    </div>
+    
+    </form>
+  </body>
+</html>

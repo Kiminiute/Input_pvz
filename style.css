@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.5) 0%,
+      rgba(50, 73, 75, 0.5) 35%,
+      rgba(109, 139, 145, 0.5) 100%
+    ),
+    url(./images/office-work.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: rgb(44, 39, 42);
+  margin-bottom: 5px;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+form {
+  background-color: hsl(286, 23%, 46%);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+}
+
+input,
+select {
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.inline-label {
+  display: inline;
+}
+
+form p {
+  text-align: left;
+  color: rgb(239, 243, 247);
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+textarea {
+  resize: none;
+}
